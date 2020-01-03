@@ -21,9 +21,14 @@ Developed in **Python 3.7.0**
 
 `pip install -r requirements.txt`
 
-## Build Application
+## Build and run the application locally
 
 * app.py
+
+```
+$ python3 app.py
+```
+
 * application runs locally in http://127.0.0.1:5000/
 
 ```
@@ -61,15 +66,15 @@ Welcome to the server
 
 * Login to Heroku from the CLI:  
 
-`heroku login -i`
+`$ heroku login -i`
 
 * Add the project repository to the remote:  
 
-`heroku git:remote -a {project-name}`
+`$ heroku git:remote -a {project-name}`
 
 * Upload the project by pushing to Heroku:  
 
-`git push heroku master`
+`$ git push heroku master`
 
 ### Testing
 
